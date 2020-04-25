@@ -1,13 +1,15 @@
 {
-  "name": "reporterTelegramLighthouse",
-  "version": "1.0.0",
+  "name": "reporter-telegram-lighthouse",
+  "version": "1.0.3",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "start": "node lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "main": "lib/index.js",
+  "bin":"bin/index.js",
   "keywords": [],
-  "author": "",
+  "author": "dragin96",
   "license": "ISC",
   "dependencies": {
     "command-line-args": "^5.1.1",
