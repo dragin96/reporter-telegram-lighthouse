@@ -9,7 +9,7 @@ npm i reporter-telegram-lighthouse  -g
 
 ### Запуск
 ```bash
-npm i reporter-telegram-lighthouse  --token-bot token --id-chat id_chat_teleggram
+reporter-telegram-lighthouse  --token-bot token --id-chat id_chat_teleggram
 ```
 
 ### Запуск с использыванием npx 
