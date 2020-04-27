@@ -1,18 +1,31 @@
 {
   "name": "reporter-telegram-lighthouse",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "scripts": {
     "start": "node lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "main": "lib/index.js",
-  "bin":"bin/index.js",
-  "keywords": [],
+  "bin": "bin/index.js",
   "author": "dragin96",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragin96/reporter-telegram-lighthouse.git"
+  },
+  "keywords": [
+    "metrics",
+    "performance",
+    "lighthouse"
+  ],
+  "bugs": {
+    "url": "https://github.com/dragin96/reporter-telegram-lighthouse/issues"
+  },
+  "homepage": "https://github.com/dragin96/reporter-telegram-lighthouse#readme",
   "license": "ISC",
   "dependencies": {
     "command-line-args": "^5.1.1",
     "node-fetch": "^2.6.0"
-  }
+  },
+  "devDependencies": {}
 }
